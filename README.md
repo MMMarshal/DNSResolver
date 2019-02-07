@@ -1,5 +1,5 @@
 # DNS Resolver
-A DNS lookup server written in Java .
+A DNS lookup server written in Java.
 
 ## Description
 The server reads a client’s request and replies with an appropriate answer per DNS protocol. If an answer cannot be found in the local cache the server will forward the request to Google's public DNS server to recursively answer.
